@@ -7,7 +7,7 @@ export const Navbar = () => {
 	const {store, actions} = useContext(Context);
 	
 	return (
-		<nav className="navbar navbar-light bg-light px-5 w-100">
+		<nav className="navbar navbar-light bg-light px-5">
 			<Link to="/">
 				<img src="https://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG34.png" style={{ width: "120px" }}/>
 			</Link>
